@@ -35,7 +35,7 @@ server.error.include-stacktrace=never
 
 api.security.token.secret=${JWT_SECRET:<sua_chave_jwt>}
 
-
+````
 ## 🔑 Autenticação JWT
 
 Para autenticar e obter o Token JWT utilize o endpoint abaixo:
@@ -49,12 +49,15 @@ Para autenticar e obter o Token JWT utilize o endpoint abaixo:
   "login": "usuario_exemplo",
   "senha": "senha_exemplo"
 }
+```
 
 **Exemplo de resposta:**
 
+```json
 {
   "token": "token.jwt.exemplo"
 }
+```
 
 **Utilize o token obtido no cabeçalho HTTP das requisições protegidas da seguinte forma:**
 
