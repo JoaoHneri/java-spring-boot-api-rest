@@ -61,4 +61,6 @@ Para autenticar e obter o Token JWT utilize o endpoint abaixo:
 
 **Utilize o token obtido no cabeçalho HTTP das requisições protegidas da seguinte forma:**
 
+```properties
 Authorization: Bearer token.jwt.exemplo
+```
