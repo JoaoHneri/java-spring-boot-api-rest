@@ -1,6 +1,6 @@
 # 📌 API REST VollMed (Spring Boot + JWT)
 
-👋 **Seja bem-vindo ao projeto VollMed!**
+👋 **Seja bem-vindo ao projeto VollMed! Alura**
 
 Este é um projeto de API REST segura desenvolvido com **Java**, **Spring Boot** e **Spring Security**, utilizando autenticação baseada em **JWT (JSON Web Token)**. O projeto tem como objetivo gerenciar cadastros e operações relacionadas a médicos e pacientes, aplicando boas práticas de segurança e organização.
 
